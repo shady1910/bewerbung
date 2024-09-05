@@ -1,0 +1,18 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-recommended", "stylelint-prettier/recommended"],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": [true, { "singleQuote": true, "tabWidth": 2 }],
+    "no-empty-source": null,
+    "no-duplicate-at-import-rules": true,
+    "at-rule-no-unknown": null,
+    "font-family-no-missing-generic-family-keyword": true,
+    "selector-pseudo-element-no-unknown": null,
+    "no-invalid-position-at-import-rule": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind"]
+      }
+    ]
+  }
+}

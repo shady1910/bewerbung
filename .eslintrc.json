@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-console": "warn",
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "no-trailing-spaces": "warn"
+  },
+  "ignorePatterns": ["dist", "node_modules"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  }
+}
