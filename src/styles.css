@@ -202,15 +202,15 @@ section {
   @apply flex h-12 w-12 items-center justify-center rounded-[50%];
 
   &.p75 {
-    background: radial-gradient(closest-side, #0f0f0f 79%, transparent 80% 100%), conic-gradient(#3b82f6 75%, #374151 0);
+    background: radial-gradient(closest-side, #0f0f0f 79%, transparent 80% 100%), conic-gradient(#EF902A 75%, #374151 0);
   }
 
   &.p95 {
-    background: radial-gradient(closest-side, #0f0f0f 79%, transparent 80% 100%), conic-gradient(#3b82f6 95%, #374151 0);
+    background: radial-gradient(closest-side, #0f0f0f 79%, transparent 80% 100%), conic-gradient(#EF902A 95%, #374151 0);
   }
 
   &.p100 {
-    background: radial-gradient(closest-side, #0f0f0f 79%, transparent 80% 100%), conic-gradient(#3b82f6 100%, #374151 0);
+    background: radial-gradient(closest-side, #0f0f0f 79%, transparent 80% 100%), conic-gradient(#EF902A 100%, #374151 0);
   }
 }
 

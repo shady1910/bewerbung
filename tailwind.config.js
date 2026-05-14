@@ -15,7 +15,7 @@ module.exports = {
           800: 'rgb(30, 64, 175)',
           900: 'rgb(30, 58, 138)'
         },
-        'brand-primary': 'rgb(37, 99, 235)',
+        'brand-primary': 'rgb(239, 144, 42)',
         'default-font': 'rgb(23, 23, 23)',
         'subtext-color': 'rgb(115, 115, 115)',
         'neutral-border': 'rgb(229, 229, 229)',
